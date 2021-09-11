@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/iconmakara.ico') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/99afec1a7a.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- End: Font -->
+    <title>Hello!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/iconmakara.ico') }}"> -->
 </head>
 <body>
-    <p>Hello, I am Tio Laks.</p>
-    <a href="/about">ke about</a>
-    <br>
-    <img src="{{ url_for('static', filename='img/kucing.jpg') }}" alt="">
+    <div class="container-fluid pb-5">
+        <h1 class="text-center font-weight-bold">Hello!</h1>
+        <h5 class="text-center">I'm Laksono Bramantio</h5>
+        <br><br>
+        <h6 class="text-center mb-3">Find me on</h6>
+        <div class="text-center">
+            <a href="https://linkedin.com/in/laksono-bramantio" target="_blank" class="image-link mr-2">
+                <i class='fab fa-linkedin fa-2x icon-color'></i>
+            </a>
+            <a href="https://instagram.com/laksono.bramantio" target="_blank" class="image-link mx-2">
+                <i class='fab fa-instagram fa-2x icon-color'></i>
+            </a>
+            <a href="https://github.com/laksonobramantio99" target="_blank" class="image-link mx-2">
+                <i class='fab fa-github fa-2x icon-color'></i>
+            </a>
+            <a href="https://gitlab.com/laksonobramantio99" target="_blank" class="image-link ml-2">
+                <i class='fab fa-gitlab fa-2x icon-color'></i>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
