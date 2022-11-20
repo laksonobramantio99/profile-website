@@ -1,0 +1,4 @@
+110.138.92.110;Jakarta;ID;-6.2146,106.8451;AS7713 PT Telekomunikasi Indonesia;Jakarta;Asia/Jakarta$
+110.138.92.110;Jakarta;ID;-6.2146,106.8451;AS7713 PT Telekomunikasi Indonesia;Jakarta;Asia/Jakarta$
+125.160.235.15:Jakarta:ID:-6.2146,106.8451:AS7713 PT Telekomunikasi Indonesia:Jakarta:Asia/Jakarta$
+125.160.235.15:Jakarta:ID:-6.2146,106.8451:AS7713 PT Telekomunikasi Indonesia:Jakarta:Asia/Jakarta$

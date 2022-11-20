@@ -21,3 +21,11 @@ body {
 .icon-color {
     color: #f8f8f2;
 }
+
+.fab:hover {
+    color: grey;
+}
+
+.fab:focus {
+    color: grey;
+}
